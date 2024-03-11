@@ -1,13 +1,16 @@
 [tool.poetry]
-name = "python-template"
+name = "space-inv"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["betich <betich365@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0"
 pygame = "^2.1.2"
 dearpygui = "^1.6.2"
+
+[tool.poetry.scripts]
+start = "space_inv:main"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
